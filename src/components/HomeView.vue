@@ -93,13 +93,29 @@ export default {
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Inclut padding et bordures dans les dimensions */
+}
+/* Réinitialisation des marges */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
 .home {
-  
   display: flex;
-  height: 100vh;
+  height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  width: 100vw; /* Prend toute la largeur de la fenêtre */
   color: #fff;
   background-color: #000;
-  padding: 0 50px;
+  padding: 0; /* Supprime le padding */
+  box-sizing: border-box; /* Inclut la bordure et le padding dans les dimensions */
 }
 
 .left-side, .right-side {

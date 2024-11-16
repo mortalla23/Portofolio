@@ -9,14 +9,14 @@
 
 <script>
 import NavbarView from './components/NavbarView.vue';
-// import HomeView from './components/HomeView.vue';
+//import HomeView from './components/HomeView.vue';
 import FooterView from './components/FooterView.vue';
 
 export default {
   name: 'App',
   components: {
     NavbarView,
-    // HomeView,
+     //HomeView,
     FooterView
   }
 }
