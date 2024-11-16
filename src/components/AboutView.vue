@@ -176,6 +176,7 @@ export default {
 </script>
 
 <style scoped>
+
 .description-list {
   padding: 0;
   margin: 0;
@@ -198,17 +199,29 @@ export default {
 }
 
 /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Gère correctement les marges et les bordures */
+}
+
+/* Appliquer un fond noir global */
 body, html {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  background-color: #121212; /* Couleur noire */
+  color: #fff; /* Couleur du texte */
+  min-height: 100vh; /* Assure une hauteur minimale */
+  font-family: 'Poppins', sans-serif; /* Assure une police uniforme */
+  overflow-x: hidden; /* Empêche les barres de défilement horizontales */
 }
+
 
 /* Global styles */
 .about-view {
   background-color: #000;
   color: #fff;
+  width: 100%;
   padding: 50px 0;
   font-family: 'Poppins', sans-serif;
 }

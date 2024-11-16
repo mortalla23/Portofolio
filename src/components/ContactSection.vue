@@ -26,15 +26,15 @@
           <div class="social-links">
             <h3>Mes réseaux sociaux</h3>
             <div class="icons">
-              <a href="https://github.com/" target="_blank" class="icon">
+              <a href="https://github.com/mortalla23" target="_blank" class="icon">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com/" target="_blank" class="icon">
+              <a href="https://www.linkedin.com/in/mor-talla-047893266//" target="_blank" class="icon">
                 <i class="fab fa-linkedin"></i>
               </a>
-              <a href="mailto:votremail@exemple.com" target="_blank" class="icon">
+              <!-- <a href="mortalla23102001@gmail.com" target="_blank" class="icon">
                 <i class="fas fa-envelope"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -70,8 +70,19 @@
   </script>
   
   <style scoped>
+  /* Styles globaux pour s'assurer que tout le fond est noir */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Fond noir */
+  color: #fff; /* Texte blanc */
+  min-height: 100vh; /* Assure une hauteur minimum */
+  font-family: 'Poppins', sans-serif;
+}
+
   /* Section Contact */
   .contact-section {
+    width: 100%;
     background-color: #000;
     color: #fff;
     padding: 50px 20px;

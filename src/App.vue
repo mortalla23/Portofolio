@@ -24,9 +24,11 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-top: 0;
+  width: 100%; /* Prend toute la largeur de l'écran */
+  min-height: 100vh; /* Assure une hauteur minimum */
+  background-color: #121212; /* Fond noir */
+  display: flex;
+  flex-direction: column;
 }
+
 </style>

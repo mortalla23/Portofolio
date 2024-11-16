@@ -1,10 +1,10 @@
 <template>
   <div class="home">
     <div class="top-section">
-      <a href="https://github.com/yourusername" target="_blank" class="social-icon github-icon">
+      <a href="https://github.com/mortalla23" target="_blank" class="social-icon github-icon">
         <i class="fab fa-github"></i>
       </a>
-      <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon linkedin-icon">
+      <a href="https://www.linkedin.com/in/mor-talla-047893266/" target="_blank" class="social-icon linkedin-icon">
         <i class="fab fa-linkedin"></i>
       </a>
     </div>
@@ -13,7 +13,14 @@
       <h1 class="name">Mor TALLA</h1>
       <h2 class="job-title">Développeur Full Stack</h2>
       <p class="welcome-text">Bienvenue sur mon portfolio. 👋</p>
-      <button class="download-cv" @click="downloadCV">📄 Télécharger mon CV</button>
+      <a
+        href="/Mor_TALLA_CV.pdf"
+        download="Mor_TALLA_CV.pdf"
+        class="download-cv"
+      >
+        📄 Télécharger mon CV
+      </a>
+
     </div>
     <div class="right-side">
       <!-- Place ici l'image de profil -->
@@ -30,12 +37,10 @@ export default {
       profilePicture: require('@/assets/photo.jpg') // Utilise le chemin relatif avec '@' pour 'src'
     };
   },
-  methods: {
-    downloadCV() {
-      window.location.href = 'URL_DU_CV';
-    }
-  }
+
 }
+
+
 </script>
 
 <style scoped>
